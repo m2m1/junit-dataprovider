@@ -32,3 +32,6 @@ jobs:
     - name: Run unittests
       run:
         ./gradlew test
+    - name: Run integration tests
+      run:
+        ./gradlew integTest
